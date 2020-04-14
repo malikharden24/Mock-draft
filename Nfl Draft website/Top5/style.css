@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    
+
+}
+
+li{
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background:  rgb(216, 210, 210);
+}
+
+#logo{
+    color: red;
+    
+}
+
+nav li {
+    display: inline-flex;
+    padding: 0 20px;
+    font-size: 1.1em;
+}
+
+nav li a:hover {
+    color: red;
+
+}
+
+.intro{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+    
+}
+.nav-2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    font-size: 2em;
+    
+    
+
+}
+.nav-2 a:hover{
+    color: red;
+}
+
+
+
+.underline{
+    text-decoration: underline;
+}
+
+.intro h6 {
+    padding-top: 15px;
+}
+
+.flex-box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 50px;
+}
+
+.flex-item-1 {
+    width: 600px;
+    height: 100%;
+    background:  rgb(216, 210, 210);
+   
+   
+    
+
+
+}
+
+.flex-item-2 {
+    width: 300px;
+    height: 100%;
+    
+    background:  rgb(216, 210, 210);
+
+
+}
+
+.qb-head{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.qb{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.topimg img {
+    
+    max-width: 85%;
+    height: auto;
+    text-align: center;
+}
+.topimg {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.pros-cons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#small-text{
+    font-size: .86em;
+    color: red;
+}
+
+.pros-cons li{
+    padding-top: 15px;
+
+}
+.qb p{
+    line-height: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+
+}
+
+ .flex-item-2 {
+    flex-shrink: 1;
+    padding-top: 100px;
+
+}
+
+
+
+
+
+.space {
+     
+    margin-bottom: 725px;
+}
+
+
+
+
+  @media screen and (max-width: 800px) {
+    .flex-item-1  {
+        min-width: 90%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .flex-item-2  {
+        border: 1px solid red;
+        width: 300px;
+        max-width: 100%;
+        font-size: .7rem;
+        
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+  .flex-box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 10px;
+
+  }
+
+  .stuff{
+      padding-top: 20px;
+  }
+
+  .stuff li{
+      padding-top: 10px;
+  }
+
+ 
+  .space {
+     
+    margin-bottom: 600px;
+}
+
+nav li {
+    display: flex;
+  
+
+}

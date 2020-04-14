@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    
+
+}
+
+li{
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background:  rgb(216, 210, 210);
+}
+
+
+#logo{
+    color: red;
+    
+}
+
+nav li {
+    display: inline-flex;
+    padding: 0 20px;
+    font-size: 1.1em;
+}
+
+nav li a:hover {
+    color: red;
+
+}
+
+.showcase{
+    
+    text-align: center;
+    padding-top: 70px;
+    text-decoration: underline red;
+}
+
+.showcase img{
+    max-width: 100%;
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px;
+    background:  rgb(216, 210, 210);
+    font-size: 1.5em;
+}
+
+#space{
+    text-decoration: underline red;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.needs .wants{
+    text-align: center;
+}
+
+.detail{
+    font-size: .9em;
+    color: red;
+    text-align: center;
+    padding: 5px 10px;
+}
+.prospects {
+    padding: 5px 5px;
+}
+
+.prospects h3{
+    text-align: center;
+    padding: 70px 0px;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 800px) {
+    nav li {
+        display: flex;
+      
+  
+    }

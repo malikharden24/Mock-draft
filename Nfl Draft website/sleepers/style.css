@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    
+
+}
+
+li{
+    list-style: none;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background:  rgb(216, 210, 210);
+}
+
+#logo{
+    color: red;
+    
+}
+
+nav li {
+    display: inline-flex;
+    padding: 0 20px;
+    font-size: 1.1em;
+}
+
+nav li a:hover {
+    color: red;
+
+}
+
+.intro{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+    
+}
+
+.base{
+    padding-top: 100px;
+}
+
+.sleep-part{
+    display: flex;
+    height:  300px;
+    border: black solid 3px;
+    padding: 10px;
+   
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    padding-left: 10px;
+}
+
+.group{
+    padding-left: 30px;
+    text-align: center;
+    
+    
+}
+h3{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.name{
+    font-size: 1.5em;
+    text-decoration: underline red;
+}
+
+.part-1{
+    padding-bottom: 400px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .group {
+        padding-bottom: 50px;
+    }
+  }
+
+  nav li {
+    display: flex;
+  
+
+}
